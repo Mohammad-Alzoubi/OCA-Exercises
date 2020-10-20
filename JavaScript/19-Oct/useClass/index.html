@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class person {
+            constructor (name, age){
+            this.name = name;
+            this.age = age;
+            }
+            introduce() {
+                console.log(`Hello, my name is ${this.name}and my age is ${this.name}`);
+            }
+
+        }
+        class person2 extends person {
+            constructor(name) {
+            super(name);
+            }
+        }
+
+        class car {
+            constructor (name, year){
+                this.name = name;
+                this.year = year;
+            }
+            type(){
+                console.log(`My car name is ${this.name} and ${this.year} years old`);
+            }
+
+        }
+        class animal {
+            constructor(name, type){
+                this.name = name;
+                this. type = type;
+            }
+
+        }
+    </script>
+</body>
+</html>

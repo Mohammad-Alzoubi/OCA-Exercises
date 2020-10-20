@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="fname">Job title:</label><br>
+        <input type="text" id="job" name="fname"><br><br>
+        <label for="lname">Location:</label><br>
+        <input type="text" id="location" name="lname"><br><br>
+        <label for="lname">Partner's name:</label><br>
+        <input type="text" id="partner" name="lname"><br><br>
+        <label for="lname">Number of children:</label><br>
+        <input type="number" id="number" name="lname"><br><br>
+    </form>
+    Write a function named tellFortune that:
+    takes 4 arguments: number of children,
+    partner's name, geographic location, job title.
+    outputs your fortune to the screen like so:
+    "You will be a X in Y, and married to Z with N kids."
+    Ex: tellFortune('software engineer', 'Jordan', 'Alice', 3);
+    => "You will be a software engineer in Jordan, and married to Alice with 3 kids."
+<script>
+        function tellFortune (job,location,partner,number) {
+
+            console.log('You will be a ' + job + ' in '+ location + ',' + ' and married to ' + partner  + ' with ' + number + ' kids.');
+        }
+
+        tellFortune('software engineer', 'Jordan', 'Alice', 3);
+
+    </script>
+</body>
+</html>
