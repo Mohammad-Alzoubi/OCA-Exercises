@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8FC3CF;
+}
+
+.cotainer {
+    margin: 25px;
+    padding: 25px;
+}
+
+
+.nav {
+    /* background: #DDD3C3; */
+    background: #BD998C;
+    height: 50px;
+}
+
+.cont-name{
+    float: left;
+}
+.cont-name h2{
+    text-align: center;
+}
+
+.cont-link{
+    float: right;
+    margin-right: 150px;
+}
+.cont-link ul{
+    list-style-type: none;
+}
+
+.cont-link ul li{
+    display: inline-block;
+}
+.cont-link ul li a{
+    color: #FFF;
+    font-size: 25px;
+    /* margin: 0 5px 0 5px; */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* **************************************************** */
+
+.main {
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0.5rem;
+}
+/* start aside-text */
+.section-text div h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #A77363;
+    text-decoration: underline;
+    /* color: #DACAAE; */
+}
+.section-text div p{
+    font-family: cursive;
+    font-size: 30px;
+    text-align: justify;
+    border-radius: 25px;
+    animation: mymove 5s infinite;
+}
+
+
+
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px #A77363;}
+}
+
+
+.img{
+    width: 300px;
+}
+/* End aside-text */
+
+
+.photo .card{
+    border: 1px solid #A77363;
+}
+
+
